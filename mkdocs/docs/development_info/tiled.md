@@ -1,6 +1,6 @@
 # Tiled
 
-Saland uses tmx files for Tiled.
+Saland uses tmx files for [Tiled](https://www.mapeditor.org/).
 
 There are some requirements to how the files need to look in order for them to work.
 
