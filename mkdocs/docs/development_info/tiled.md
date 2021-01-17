@@ -15,8 +15,11 @@ Some elements (barrels, trees) blocks the player.
 ### object1
 This layer contains some static objects.
 
-#### Retangles with type "protectedRegion"
-Tells the engine to not allow the player to do any changes. The reqion is protected
+Objects on this layer:
+
+| Type | Condition | Effect |
+| --- | --- | --- |
+| Retangle | type = "protectedRegion" | Tells the engine to not allow the player to do any changes. The reqion is protected |
 
 ### blocking_overlay_1
 Managed by the engine. The engine might put elements which belongs to the blocking layer.
