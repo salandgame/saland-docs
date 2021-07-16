@@ -15,4 +15,4 @@ VOLUME /input
 RUN adduser --disabled-password --gecos "Build user" builduser && chown builduser /workdir
 USER builduser
 
-CMD rsync -r /input/ /workdir && cd /workdir && mkdocs build && rsync -r /workdir/site/ /output
+CMD rsync -r /input/ /workdir && cd /workdir && mkdocs build && rm -rf /workdir/site/.git && rsync -r /workdir/site/ /output
